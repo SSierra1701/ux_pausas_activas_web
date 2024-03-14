@@ -15,7 +15,7 @@ export class LoginComponent {
     if(provider=='atras'){
       this.router.navigate(['']);
     } else{
-      this.router.navigate(['']);
+      this.router.navigate(['/dashboard']);
     }
   }
 

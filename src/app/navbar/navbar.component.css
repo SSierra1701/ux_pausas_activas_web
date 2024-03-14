@@ -1,0 +1,71 @@
+.navbar {
+    width: 100%;
+    max-width: 1065px;
+    height: 44px;
+    position: fixed;
+    top: 0;
+    left: 50%; /* Centrar horizontalmente */
+    transform: translateX(-50%); /* Centrar horizontalmente */
+    background: linear-gradient(to right, #2A3B71, #3D63AC);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Efecto de sombra en el borde inferior */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 10px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-right {
+    display: flex;
+  }
+  
+  .navbar-button {
+    margin-right: 52px;
+  }
+  
+  
+  .left-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+  }
+  
+  .right-buttons {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: #B9D6F2;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .home-button {
+    margin-right: 52px;
+  }
+  
+  .dolencias-button {
+    margin-right: 52px;
+  }
+  
+  .mejoras-button {
+    margin-right: 52px;
+  }
+  
+  .logout-button {
+    margin-right: 0; /* No margin for the last button */
+    background-color: #D17F1F;
+    border-radius: 10px;
+  }
+  
