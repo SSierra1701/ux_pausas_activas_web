@@ -12,6 +12,8 @@ export class HomeComponent {
   iniciarSesion(provider: string) {
     if(provider=='facebook' || provider=='google'){
       this.router.navigate(['/login']);
-    } 
+    } else {
+      this.router.navigate(['/dashboard']);
+    }
   }
 }

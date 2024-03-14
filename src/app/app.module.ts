@@ -8,6 +8,7 @@ import { LoginComponent } from './login/login.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { RegMejorasComponent } from './reg-mejoras/reg-mejoras.component';
+import { RegDolenciasComponent } from './reg-dolencias/reg-dolencias.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RegMejorasComponent } from './reg-mejoras/reg-mejoras.component';
     LoginComponent,
     NavbarComponent,
     DashboardComponent,
-    RegMejorasComponent
+    RegMejorasComponent,
+    RegDolenciasComponent
   ],
   imports: [
     BrowserModule,

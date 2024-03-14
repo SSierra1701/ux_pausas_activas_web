@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-reg-mejoras',
-  templateUrl: './reg-mejoras.component.html',
-  styleUrl: './reg-mejoras.component.css'
+  selector: 'app-reg-dolencias',
+  templateUrl: './reg-dolencias.component.html',
+  styleUrl: './reg-dolencias.component.css'
 })
-export class RegMejorasComponent {
+export class RegDolenciasComponent {
   constructor(private router: Router) { }
   
   onClick() {

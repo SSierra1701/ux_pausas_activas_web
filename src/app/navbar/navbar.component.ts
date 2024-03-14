@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -6,5 +7,25 @@ import { Component } from '@angular/core';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
+  constructor(private router: Router) { }
+  
+  onClick(provider: string) {
+    switch(provider){
+      case "home":
+        this.router.navigate(['/dashboard']);
+        break;
+        
+      case "mejoras":
+        this.router.navigate(['/registro-mejoras']);
+        break;
 
+      case "dolencias":
+        this.router.navigate(['/registro-dolencias']);
+        break;
+
+      case "logout":
+        this.router.navigate(['/home']);
+        break;
+    }
+  }
 }
