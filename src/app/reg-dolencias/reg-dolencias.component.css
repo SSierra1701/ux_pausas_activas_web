@@ -1,5 +1,5 @@
 .content-wrapper {
-    margin-top: 56px; /* Distancia del borde superior del navbar */
+    margin-top: 56px;
     max-width: 1065px;
     margin-left: auto;
     margin-right: auto;
@@ -13,24 +13,24 @@
     font-size: 24px;
     color: #B9D6F2;
     font-family: 'Roboto', sans-serif;
-    margin-top: 13px; /* Distancia del borde superior del wrapper */
+    margin-top: 13px;
     margin-bottom: 16px;
 }
 
 .table-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Alinea el texto a la izquierda */
-    margin-left: 20px; /* Ajusta el margen izquierdo para alinear con el borde izquierdo de la tabla */
+    align-items: flex-start;
+    margin-left: 20px;
 }
 
 .table-container {
     position: relative;
     width: 955px;
     height: 266px;
-    margin: 0 auto; /* Centrar horizontalmente */
-    overflow-x: auto; /* Agregar barra de desplazamiento horizontal si es necesario */
-    overflow-y: auto; /* Agregar barra de desplazamiento vertical si es necesario */
+    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: auto;
     border-radius: 20px;
 }
 
@@ -87,10 +87,9 @@ tbody tr:hover {
     background-color: #B9D6F2;
 }
 
-/* Estilos para el botón Home */
 .home-button {
     position: relative;
-    margin-top: 20px; /* Espacio entre el botón y la última tabla */
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     display: block;

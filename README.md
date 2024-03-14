@@ -1,27 +1,46 @@
-# UxPausasActivasWeb
+# Despliegue de Aplicación ActiveYa desde GitHub
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+Este repositorio contiene una aplicación Angular que puede ser desplegada localmente para propósitos de desarrollo o pruebas.
 
-## Development server
+## Requisitos Previos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Node.js y npm instalados en tu sistema. Puedes descargarlos desde [aquí](https://nodejs.org/).
+- Angular CLI instalado de forma global. Puedes instalarlo ejecutando el siguiente comando en tu terminal:
 
-## Code scaffolding
+  ```
+  npm install -g @angular/cli
+  ```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Pasos para el Despliegue Local
 
-## Build
+1. **Clona el Repositorio:**
+   
+   ```
+   git clone https://github.com/SSierra1701/ux_pausas_activas_web
+   ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. **Instala las Dependencias:**
 
-## Running unit tests
+   Navega al directorio de la aplicación clonada (ux_pausas_activas_web) verifica que te encuentres en la rama 'master' y ejecuta el siguiente comando para instalar todas las dependencias necesarias:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+   ```
+   cd ux_pausas_activas_web
+   npm install
+   ```
 
-## Running end-to-end tests
+3. **Inicia el Servidor de Desarrollo:**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   Una vez que todas las dependencias estén instaladas, puedes iniciar el servidor de desarrollo ejecutando:
 
-## Further help
+   ```
+   ng serve --o
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   Esto iniciará el servidor de desarrollo y tu aplicación estará disponible en `http://localhost:4200/`. La aplicación se recargará automáticamente si realizas cambios en los archivos fuente.
+
+## Imagenes de referencia del contenido:
+![ACTIVEYA](image.png)
+![AUTH](image-3.png)
+![USRNOTFOUND](image-4.png)
+![HOME](image-1.png)
+![DOLENCIAS](image-2.png)

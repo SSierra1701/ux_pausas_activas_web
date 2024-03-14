@@ -1,11 +1,10 @@
 <div class="navbar">
-    <div class="left-buttons">
-      <button class="home-button" (click)="onClick('home')">Home</button>
-    </div>
-    <div class="right-buttons">
-      <button class="dolencias-button" (click)="onClick('dolencias')">Dolencias</button>
-      <button class="mejoras-button" (click)="onClick('mejoras')">Mejoras</button>
-      <button class="logout-button" (click)="onClick('logout')">Logout</button>
-    </div>
+  <div class="left-buttons">
+    <button class="home-button" [class.active]="activeButton === 'home'" (click)="onClick('home')">Home</button>
   </div>
-  
+  <div class="right-buttons">
+    <button class="dolencias-button" [class.active]="activeButton === 'dolencias'" (click)="onClick('dolencias')">Dolencias</button>
+    <button class="mejoras-button" [class.active]="activeButton === 'mejoras'" (click)="onClick('mejoras')">Mejoras</button>
+    <button class="logout-button" [class.active]="activeButton === 'logout'" (click)="onClick('logout')">Logout</button>
+  </div>
+</div>

@@ -4,10 +4,10 @@
     height: 44px;
     position: fixed;
     top: 0;
-    left: 50%; /* Centrar horizontalmente */
-    transform: translateX(-50%); /* Centrar horizontalmente */
+    left: 50%;
+    transform: translateX(-50%);
     background: linear-gradient(to right, #2A3B71, #3D63AC);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Efecto de sombra en el borde inferior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,8 +64,11 @@
   }
   
   .logout-button {
-    margin-right: 0; /* No margin for the last button */
+    margin-right: 0;
     background-color: #D17F1F;
     border-radius: 10px;
   }
   
+  button.active {
+    border-bottom: 2px solid #D17F1F;
+  }

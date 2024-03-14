@@ -3,9 +3,9 @@
     justify-content: space-between;
     align-items: center;
     max-width: 1065px;
-    margin: 0 auto; /* Centrar horizontalmente */
-    padding: 0 20px; /* Agregar espacios a los lados */
-    height: 100vh; /* Utiliza toda la altura de la pantalla */
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 100vh;
 }
 
 .improvement-container,
