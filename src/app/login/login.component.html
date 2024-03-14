@@ -1,1 +1,21 @@
-<p>login works!</p>
+<div class="login-wrapper">
+    <div class="login-container">
+      <h2 class="title">Selecciona tu Cuenta</h2>
+      <button class="gmail-button" (click)="onClick('gmail')">
+        <span class="logo"></span>Daniel_erazo&#64;gmail.com
+      </button>
+      <button class="facebook-button" (click)="showModal = true">
+        <span class="logo"></span>santiago_sierra&#64;hotmail.com
+      </button>
+    </div>
+    <button class="back-button" (click)="onClick('atras')">Atrás</button>
+  
+    <div class="modal-overlay" [ngClass]="{'show': showModal}" (click)="hideModal()"></div>
+    <div class="modal" [ngClass]="{'show': showModal}">
+        <div class="modal-content">
+          <img class="modal-logo" src="../../assets/img/scared.png" alt="Logo">
+          <p class="modal-text">No Te Encuentras Registrado</p>
+        </div>
+      </div>      
+</div>
+  

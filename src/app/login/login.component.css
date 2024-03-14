@@ -1,0 +1,144 @@
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    width: 1065px;
+    height: 425px;
+    background-color: #061A40;
+    margin-top: 145px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+  }
+  
+  .title {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-top: 34px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .gmail-button,
+  .facebook-button,
+  .back-button {
+    width: 705px;
+    height: 82px;
+    margin-top: 47px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .gmail-button {
+    background: linear-gradient(to right, #003559, #0072BF);
+    text-align: left;
+  }
+  
+  .gmail-button:hover {
+    background: linear-gradient(to right, #0072BF, #003559);
+  }
+  
+  .facebook-button {
+    background: linear-gradient(to right, #217C45, #0072BF);
+    text-align: left;
+  }
+  
+  .facebook-button:hover {
+    background: linear-gradient(to right, #0072BF, #217C45);
+  }
+  
+  .back-button {
+    width: 268px;
+    height: 90px;
+    margin-top: 47px;
+    border-radius: 100px;
+    background-color: #006DAA;
+  }
+  
+  .back-button:hover {
+    background-color: #B9D6F2;
+  }
+  
+  .logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 63px;
+    height: 63px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-right: 4px;
+  }
+  
+  .gmail-button .logo {
+    background-image: url('../../assets/img/logo1.png');
+  }
+  
+  .facebook-button .logo {
+    background-image: url('../../assets/img/logo2.png');
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #33A2F2, #61A9DD);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+  }
+  
+  .modal-overlay.show {
+    opacity: 0.5;
+    pointer-events: auto;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 414px;
+    height: 250px;
+    background: linear-gradient(to bottom, #33A2F2, #29386D);
+    border-radius: 20px;
+    display: none;
+  }
+  
+  .modal.show {
+    display: block;
+  }
+  
+  .modal-content {
+    text-align: center;
+    position: relative;
+  }
+  
+  .modal-logo {
+    width: 90px;
+    height: 90px;
+    margin-top: 21px;
+  }
+  
+  .modal-text {
+    color: #061A40;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+  }
+  
